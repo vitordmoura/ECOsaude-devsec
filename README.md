@@ -1,10 +1,17 @@
 # EcoSaúde DevSecOps
 
+
 Módulo DevSecOps integrado ao projeto EcoSaúde, desenvolvido para a Global Solution FIAP 2026.
 
+
+## Integrantes
+
 Lucas Reis Diniz - RM552838
+
 Thiago Araújo Vieira - RM553477
+
 Vitor de Moura Nascimento - RM553806
+
 
 ## Sobre o Projeto
 
