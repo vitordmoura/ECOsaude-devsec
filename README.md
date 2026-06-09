@@ -206,6 +206,15 @@ Docker Compose:
 docker compose up -d
 ```
 
+```
+
+## GitHub Secrets necessários
+
+- SATELLITE_API_KEY
+- CLIMATE_API_KEY
+- MAPS_TOKEN
+- DATABASE_URL
+- JWT_SECRET
 ---
 
 ## Scans Locais
@@ -311,17 +320,5 @@ Esses artefatos servem como comprovação prática da aplicação das práticas 
 
 Projeto desenvolvido como complemento da solução EcoSaúde para demonstrar a integração de práticas DevSecOps, automação de segurança e proteção de infraestrutura em aplicações baseadas em dados espaciais.
 
-bandit -r services -ll
-pip-audit -r requirements.txt
-docker build -t ecosaude-api:local .
-trivy image ecosaude-api:local
-gitleaks detect --source . --verbose
-```
 
-## GitHub Secrets necessários
 
-- SATELLITE_API_KEY
-- CLIMATE_API_KEY
-- MAPS_TOKEN
-- DATABASE_URL
-- JWT_SECRET
