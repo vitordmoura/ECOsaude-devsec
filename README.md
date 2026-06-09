@@ -2,6 +2,10 @@
 
 Módulo DevSecOps integrado ao projeto EcoSaúde, desenvolvido para a Global Solution FIAP 2026.
 
+Lucas Reis Diniz - RM552838
+Thiago Araújo Vieira - RM553477
+Vitor de Moura Nascimento - RM553806
+
 ## Sobre o Projeto
 
 O EcoSaúde é uma plataforma de inteligência socioambiental baseada em dados espaciais, inteligência artificial e computação de borda, desenvolvida para transformar informações provenientes de satélites, APIs climáticas e bases geoespaciais em indicadores capazes de apoiar ações de saúde pública, saneamento básico e sustentabilidade.
