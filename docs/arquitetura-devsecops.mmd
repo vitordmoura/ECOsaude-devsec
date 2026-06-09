@@ -1,0 +1,13 @@
+flowchart LR
+    A[Desenvolvedor] --> B[GitHub Repository]
+    B --> C[GitHub Actions]
+    C --> D[Gitleaks Secret Scan]
+    C --> E[Bandit SAST]
+    C --> F[pip-audit SCA]
+    D --> G[Docker Build]
+    E --> G
+    F --> G
+    G --> H[Trivy Container Scan]
+    H --> I[Deploy Homologacao]
+    I --> J[K3s/Kubernetes]
+    J --> K[Monitoramento e Logs]

@@ -1,0 +1,5 @@
+[GITLEAKS] no leaks found
+[BANDIT] no high severity issues found
+[PIP-AUDIT] no known vulnerabilities found
+[TRIVY] no CRITICAL/HIGH vulnerabilities found
+[PIPELINE] deploy allowed
