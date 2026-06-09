@@ -215,6 +215,9 @@ docker compose up -d
 - MAPS_TOKEN
 - DATABASE_URL
 - JWT_SECRET
+
+```
+
 ---
 
 ## Scans Locais
