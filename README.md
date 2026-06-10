@@ -1,6 +1,17 @@
 # EcoSaúde DevSecOps
 
+
 Módulo DevSecOps integrado ao projeto EcoSaúde, desenvolvido para a Global Solution FIAP 2026.
+
+
+## Integrantes
+
+Lucas Reis Diniz - RM552838
+
+Thiago Araújo Vieira - RM553477
+
+Vitor de Moura Nascimento - RM553806
+
 
 ## Sobre o Projeto
 
@@ -195,6 +206,18 @@ Docker Compose:
 docker compose up -d
 ```
 
+```
+
+## GitHub Secrets necessários
+
+- SATELLITE_API_KEY
+- CLIMATE_API_KEY
+- MAPS_TOKEN
+- DATABASE_URL
+- JWT_SECRET
+
+```
+
 ---
 
 ## Scans Locais
@@ -300,17 +323,5 @@ Esses artefatos servem como comprovação prática da aplicação das práticas 
 
 Projeto desenvolvido como complemento da solução EcoSaúde para demonstrar a integração de práticas DevSecOps, automação de segurança e proteção de infraestrutura em aplicações baseadas em dados espaciais.
 
-bandit -r services -ll
-pip-audit -r requirements.txt
-docker build -t ecosaude-api:local .
-trivy image ecosaude-api:local
-gitleaks detect --source . --verbose
-```
 
-## GitHub Secrets necessários
 
-- SATELLITE_API_KEY
-- CLIMATE_API_KEY
-- MAPS_TOKEN
-- DATABASE_URL
-- JWT_SECRET
